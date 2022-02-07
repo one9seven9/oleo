@@ -1,0 +1,46 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+quote_type = single
+max_line_length = 100
+
+[*.{ts,js}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+quote_type = single
+
+[*.{svelte}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+quote_type = single
+
+[*.{html}]
+charset = utf-8
+indent_size = 2
+quote_type = double
+
+[*.{md}]
+indent_size = 2
+
+[*.{scss,css}]
+charset = utf-8
+indent_size = 2
+quote_type = single
+
+[*.json]
+charset = utf-8
+indent_size = 2
+quote_type = double
+
+[*.sh]
+indent_size = 4
+
+[*.{yml}]
+indent_size = 4
