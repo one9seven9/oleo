@@ -1,0 +1,93 @@
+/* LIGHT THEME */
+html.light {
+  /* base */
+  --theme-base-color: theme('colors.slate.700');
+  --theme-base-color-2: theme('colors.slate.500');
+  --theme-base-color-3: theme('colors.slate.300');
+  --theme-base-bg: theme('colors.slate.100');
+  --theme-base-bg-2: theme('colors.slate.200');
+  --theme-base-bg-3: theme('colors.slate.300');
+
+  /* primary */
+  --theme-primary-color: theme('colors.sky.600');
+  --theme-primary-color-2: theme('colors.sky.500');
+  --theme-primary-bg: theme('colors.sky.100');
+  --theme-primary-bg-2: theme('colors.sky.200');
+
+  /* secondary */
+  --theme-secondary-color: theme('colors.slate.800');
+  --theme-secondary-color-2: theme('colors.slate.500');
+  --theme-secondary-bg: theme('colors.slate.100');
+  --theme-secondary-bg-2: theme('colors.slate.200');
+
+  /* error */
+  --theme-error-color: theme('colors.red.800');
+  --theme-error-color-2: theme('colors.red.500');
+  --theme-error-bg: theme('colors.red.100');
+  --theme-error-bg-2: theme('colors.red.200');
+
+  /* success */
+  --theme-success-color: theme('colors.emerald.800');
+  --theme-success-color-2: theme('colors.emerald.500');
+  --theme-success-bg: theme('colors.emerald.100');
+  --theme-success-bg-2: theme('colors.emerald.200');
+
+  /* warning */
+  --theme-success-color: theme('colors.orange.800');
+  --theme-success-color-2: theme('colors.orange.500');
+  --theme-success-bg: theme('colors.orange.100');
+  --theme-success-bg-2: theme('colors.orange.200');
+
+  /* info */
+  --theme-info-color: theme('colors.blue.800');
+  --theme-info-color-2: theme('colors.blue.500');
+  --theme-info-bg: theme('colors.blue.100');
+  --theme-info-bg-2: theme('colors.blue.200');
+
+  /* button */
+  --theme-button-radius: 0.5rem;
+
+  --theme-button-base-color: theme('colors.slate.100');
+  --theme-button-base-bg: theme('colors.slate.500');
+  --theme-button-primary-color: theme('colors.sky.100');
+  --theme-button-primary-bg: theme('colors.sky.500');
+  --theme-button-secondary-color: theme('colors.slate.100');
+  --theme-button-secondary-bg: theme('colors.slate.500');
+  --theme-button-error-color: theme('colors.red.100');
+  --theme-button-error-bg: theme('colors.red.500');
+  --theme-button-success-color: theme('colors.emerald.100');
+  --theme-button-success-bg: theme('colors.emerald.500');
+
+  --theme-button-base-color-hover: theme('colors.slate.100');
+  --theme-button-base-bg-hover: theme('colors.slate.400');
+  --theme-button-primary-color-hover: theme('colors.sky.100');
+  --theme-button-primary-bg-hover: theme('colors.sky.400');
+  --theme-button-secondary-color-hover: theme('colors.slate.100');
+  --theme-button-secondary-bg-hover: theme('colors.slate.400');
+  --theme-button-error-color-hover: theme('colors.red.100');
+  --theme-button-error-bg-hover: theme('colors.red.400');
+  --theme-button-success-color-hover: theme('colors.emerald.100');
+  --theme-button-success-bg-hover: theme('colors.emerald.400');
+
+  --theme-button-base-color-active: theme('colors.slate.100');
+  --theme-button-base-bg-active: theme('colors.slate.600');
+  --theme-button-primary-color-active: theme('colors.sky.100');
+  --theme-button-primary-bg-active: theme('colors.sky.600');
+  --theme-button-secondary-color-active: theme('colors.slate.100');
+  --theme-button-secondary-bg-active: theme('colors.slate.600');
+  --theme-button-error-color-active: theme('colors.red.100');
+  --theme-button-error-bg-active: theme('colors.red.600');
+  --theme-button-success-color-active: theme('colors.emerald.100');
+  --theme-button-success-bg-active: theme('colors.emerald.600');
+
+  --theme-button-base-color-disabled: theme('colors.slate.200');
+  --theme-button-base-bg-disabled: theme('colors.slate.500');
+  --theme-button-primary-color-disabled: theme('colors.sky.200');
+  --theme-button-primary-bg-disabled: theme('colors.sky.500');
+  --theme-button-secondary-color-disabled: theme('colors.slate.200');
+  --theme-button-secondary-bg-disabled: theme('colors.slate.500');
+  --theme-button-error-color-disabled: theme('colors.red.200');
+  --theme-button-error-bg-disabled: theme('colors.red.500');
+  --theme-button-success-color-disabled: theme('colors.emerald.200');
+  --theme-button-success-bg-disabled: theme('colors.emerald.500');
+}

@@ -1,0 +1,27 @@
+{
+  "name": "oleo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "@tailwindcss/aspect-ratio": "0.4.0",
+    "@tailwindcss/forms": "0.5.0",
+    "@tailwindcss/line-clamp": "0.3.1",
+    "@tailwindcss/typography": "0.5.2",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "postcss-load-config": "^3.1.1",
+    "prettier": "2.5.1",
+    "prettier-plugin-tailwindcss": "0.1.8",
+    "svelte": "^3.44.0",
+    "svelte-preprocess": "^4.10.1",
+    "tailwindcss": "^3.0.12",
+    "vite": "^2.8.0"
+  }
+}

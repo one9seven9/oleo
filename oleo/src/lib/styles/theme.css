@@ -1,0 +1,75 @@
+/* sans-serif */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+/* serif */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+/* monospace */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap'); */
+
+/* Roboto Family of Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Dark Theme */
+@import url('./dark.css');
+
+/* Light Theme */
+@import url('./light.css');
+
+html {
+  font-size: 4px;
+}
+
+:root {
+  /* font-family */
+  --theme-font-sans: 'Roboto';
+  --theme-font-serif: 'Roboto Slab';
+  --theme-font-mono: 'Roboto Mono';
+  /* font-size */
+  --theme-font-xs: 2rem;
+  --theme-font-sm: 3rem;
+  --theme-font-base: 4rem;
+  --theme-font-lg: 5rem;
+  --theme-font-xl: 6rem;
+  --theme-font-2xl: 7rem;
+  --theme-font-3xl: 8rem;
+  --theme-font-4xl: 9rem;
+  --theme-font-5xl: 10rem;
+  --theme-font-6xl: 11rem;
+}
+
+
+body {
+  background: var(--theme-base-bg);
+  color: var(--theme-base-color-2);
+  transition: 0.25s background linear, 0.25s color linear;
+  @apply transition-colors text-base font-light;
+}
+
+h1, h2, h3, h4 {
+  color: var(--theme-base-color);
+}
+
+h1 {
+  color: var(--theme-primary-color);
+  @apply text-4xl;
+}
+
+h2 {
+  @apply text-2xl font-normal;
+}
+
+h3 {
+  color: var(--theme-primary-color);
+  @apply text-xl font-normal;
+}
+
+h4 {
+  color: var(--theme-primary-color);
+  @apply uppercase text-base tracking-widest font-medium;
+}
+
+hr {
+  background: var(--theme-base-bg-3);
+  border-color: var(--theme-base-bg-3);
+}
