@@ -1,0 +1,9 @@
+dist*
+node_modules
+public
+yarn.lock
+package-lock.json
+package.json
+.*ignore
+.nvmrc
+.vscode
