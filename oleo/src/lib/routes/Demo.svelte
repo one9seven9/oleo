@@ -2,7 +2,7 @@
   import Button from '../components/Button.svelte'
 </script>
 
-<hr class="my-6"/>
+<hr class="my-5"/>
 
 <header>
   <h1>Heading 1</h1>

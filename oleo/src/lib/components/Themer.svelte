@@ -1,6 +1,5 @@
 <script>
-  import { ambientListener, osThemeListener } from '../stores/theme.store'
+  import { osThemeListener } from '../stores/theme.store'
 
-  // ambientListener()
   osThemeListener()
 </script>
